@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "strava-insights"
+version = "0.1.0"
+description = ""
+authors = ["Oneeb <64619727+oneebhkhan@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
